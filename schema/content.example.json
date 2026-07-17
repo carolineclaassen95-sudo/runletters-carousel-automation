@@ -1,0 +1,86 @@
+{
+  "edition": 57,
+  "date": "2026-06-05",
+  "date_display": "June 5, 2026",
+  "greeting": "Hey Runner 👋",
+  "hook_headline_html": "TOKYO HALF,<br>AUBREY &amp;<br><span class=\"highlight\">MARATHON</span>",
+  "hook_bg_image": "https://i.ytimg.com/vi/Lw1Mglh6P4A/maxresdefault.jpg",
+  "tagline": "Your weekly curated top 5 of good-vibes-only running.",
+  "cover_headline_html": "<span>RUN</span><br><span class=\"accent\">SMART.</span>",
+  "summary": "A marathon trained and untrained, the new face of The Running Channel, a half in Tokyo, and a finish line you won't forget.",
+  "section_list": [
+    { "emoji": "📹", "label": "Untrained marathon... a good idea?" },
+    { "emoji": "📲", "label": "Aubrey joins The Running Channel" },
+    { "emoji": "🗓", "label": "Tokyo Legacy Half — run Japan" },
+    { "emoji": "🎽", "label": "Coach Bennett's new book" },
+    { "emoji": "✨", "label": "A special finish" }
+  ],
+  "sections": {
+    "watchlist": {
+      "tag": "📹 Watchlist",
+      "headline_html": "TRAIN<br><span class=\"accent\">OR NOT?</span>",
+      "image": "https://i.ytimg.com/vi/Lw1Mglh6P4A/maxresdefault.jpg",
+      "kicker": "George Clarkey · YouTube",
+      "title_html": "Should you<br>train for it?",
+      "sub": "One man runs a marathon trained and untrained. The result is more fun than you'd think."
+    },
+    "social": {
+      "tag": "📲 Social Spotlight",
+      "headline_html": "WAIT,<br><span class=\"accent\">AUBREY?</span>",
+      "image": "https://i.ytimg.com/vi/Lw1Mglh6P4A/maxresdefault.jpg",
+      "kicker": "Follow · Aubrey Mvula",
+      "title_html": "From fan to<br>TRC presenter",
+      "sub": "Four years of honest reviews. Now one of the new faces of The Running Channel.",
+      "badges": [
+        { "emoji": "🎥", "text": "4 years of content" },
+        { "emoji": "👟", "text": "Endless shoe reviews" },
+        { "emoji": "📺", "text": "The Running Channel" }
+      ]
+    },
+    "events": {
+      "tag": "🗓 Events & Races",
+      "headline_html": "RUN<br><span class=\"accent\">TOKYO.</span>",
+      "bg_image": "https://i.ytimg.com/vi/Lw1Mglh6P4A/maxresdefault.jpg",
+      "country_html": "<span class=\"flag\">🇯🇵</span> TOKYO LEGACY HALF · 5TH EDITION",
+      "city": "Tokyo",
+      "city_date": "Oct 18, 2026 · MUFG Stadium",
+      "price": "Ballot",
+      "price_label": "Entry",
+      "stats": [
+        { "val_html": "13.1<span class=\"y\">mi</span>", "label": "Distance" },
+        { "val_html": "JUN <span class=\"y\">9</span>", "label": "Reg Closes" },
+        { "val_html": "JUN <span class=\"y\">29</span>", "label": "Results" }
+      ],
+      "note_html": "",
+      "info": null
+    },
+    "gear": {
+      "tag": "🎽 Gear & Gadgets",
+      "headline_html": "GEAR<br><span class=\"accent\">UP.</span>",
+      "image": "https://i.ytimg.com/vi/Lw1Mglh6P4A/maxresdefault.jpg",
+      "badge_html": "PRE-<br>ORDER",
+      "specs": [
+        { "label": "Author", "val_html": "Coach <span class=\"y\">Bennett</span>" },
+        { "label": "What", "val_html": "A new book" },
+        { "label": "Status", "val_html": "Pre-order now" }
+      ],
+      "note_html": null
+    },
+    "wildcard": {
+      "tag": "✨ Wild Card",
+      "headline_html": "A SPECIAL<br><span class=\"accent\">FINISH.</span>",
+      "image": "https://i.ytimg.com/vi/Lw1Mglh6P4A/maxresdefault.jpg",
+      "badge_html": "WATCH<br>THIS",
+      "kicker": "Wild Card",
+      "title_html": "A finish to<br>remember",
+      "sub": "All finish lines are great. Some are just more memorable than others. 😉"
+    }
+  },
+  "caption_lines": {
+    "watchlist": { "emoji": "📺", "text": "Should you run a marathon untrained? George Clarkey finds out" },
+    "social": { "emoji": "👤", "text": "Aubrey Mvula, from running fan to The Running Channel presenter" },
+    "events": { "emoji": "🗼", "text": "Tokyo Legacy Half. Ballot entry closes Jun 9" },
+    "gear": { "emoji": "📚", "text": "Coach Bennett's new book is available to pre-order" },
+    "wildcard": { "emoji": "✨", "text": "A finish line proposal that'll make your day" }
+  }
+}

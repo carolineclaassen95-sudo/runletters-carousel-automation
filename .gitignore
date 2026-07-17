@@ -1,0 +1,5 @@
+node_modules/
+queue/pending/*.json
+!queue/pending/.gitkeep
+queue/ready/**
+!queue/ready/.gitkeep
