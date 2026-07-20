@@ -25,7 +25,7 @@ found, build its Instagram carousel and send it to Caroline in Slack for approva
    g. Eyeball-check: read the 8 PNG file sizes with `ls -la queue/ready/<edition>/` — each should be a real, non-trivial PNG (tens to hundreds of KB, not near-zero). If any slide looks wrong, stop and do not proceed to Slack — leave the file in `queue/pending/` for manual investigation.
    h. `git add queue/ready/<edition>/ && git commit -m "carousel: edition <edition>" && git push`.
    i. Get the public URLs for each slide: `https://raw.githubusercontent.com/carolineclaassen95-sudo/runletters-carousel-automation/main/queue/ready/<edition>/slide-N.png` for N in 1-8.
-   j. Send a Slack message (Slack MCP tool, channel: `#carousel-approval`) with this exact structure:
+   j. Send a Slack message (Slack MCP tool, channel: `#carousel-approval`) with this exact structure. The LAST LINE must be exactly `RUNLETTERS_CAROUSEL_DATA: ` followed by one single-line JSON object with no line breaks inside it (Make.com parses this line mechanically on approval, so it must stay on one line, be the last line of the message, and use no other line starting with that marker):
       ```
       RunLetters #<edition> carousel ready to approve
 
@@ -37,10 +37,7 @@ found, build its Instagram carousel and send it to Caroline in Slack for approva
       ... (all 8)
 
       Reply "approve" in this thread to post it to @runletters.
-
-      ```json
-      {"edition": <edition>, "media_urls": [<all 8 urls>], "caption": "<caption text, JSON-escaped>"}
-      ```
+      RUNLETTERS_CAROUSEL_DATA: {"edition": <edition>, "media_urls": [<all 8 urls>], "caption": "<caption text, JSON-escaped, no literal newlines>"}
       ```
    k. Append `{edition, hook_line}` to `history/recent-editions.json`, keep only the most recent 8 entries, commit and push.
    l. Move the pending file to processed: `node -e "import('./lib/queue.mjs').then(m => m.markProcessed('queue/pending/<edition>.json', 'queue'))"`, commit and push.
