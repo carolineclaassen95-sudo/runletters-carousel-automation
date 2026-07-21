@@ -1,0 +1,47 @@
+{
+  "last_updated": "2026-07-21",
+  "contacted": [
+    {
+      "brand": "Outopia",
+      "domain": "",
+      "status": "in_deal",
+      "notes": "Already in production per state/collab-pipeline.json, $2,500 deal. Do not cold-email."
+    },
+    {
+      "brand": "361 One Degree Beyond",
+      "domain": "361sport.com",
+      "status": "in_deal",
+      "notes": "Already in production per state/collab-pipeline.json. Do not cold-email."
+    },
+    {
+      "brand": "361 Degrees",
+      "domain": "361sport.com",
+      "status": "existing_relationship",
+      "notes": "Multiple 361 products already reviewed (Furious Future 2.0, Lynx, Ventus, Kairos, Miro Nude ST) per state/gear-backlog.json. Existing relationship, not cold outreach."
+    },
+    {
+      "brand": "Tarkine",
+      "domain": "tarkine.com",
+      "status": "existing_relationship",
+      "notes": "AutoPilot model already reviewed per state/gear-backlog.json."
+    },
+    {
+      "brand": "Zenone",
+      "domain": "",
+      "status": "existing_relationship",
+      "notes": "Two pole models already reviewed per state/gear-backlog.json."
+    },
+    {
+      "brand": "Stolt",
+      "domain": "",
+      "status": "existing_relationship",
+      "notes": "Hydration vest in gear backlog per state/gear-backlog.json."
+    },
+    {
+      "brand": "Nedao",
+      "domain": "",
+      "status": "existing_relationship",
+      "notes": "Shorts reviewed twice per state/gear-backlog.json."
+    }
+  ]
+}
