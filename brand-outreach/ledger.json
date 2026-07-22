@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-22",
   "contacted": [
+    {
+      "brand": "Bandit Running",
+      "domain": "banditrunning.com",
+      "contact_email": "support@banditrunning.com",
+      "date_contacted": "2026-07-22",
+      "status": "drafted",
+      "subject": "Your Drift singlet convinced me"
+    },
+    {
+      "brand": "Xero Shoes",
+      "domain": "xeroshoes.com",
+      "contact_email": "pr@xeroshoes.com",
+      "date_contacted": "2026-07-22",
+      "status": "drafted",
+      "subject": "The FeelTrue outsole got me"
+    },
+    {
+      "brand": "Näak",
+      "domain": "naak.com",
+      "contact_email": "marketing@naak.com",
+      "date_contacted": "2026-07-22",
+      "status": "drafted",
+      "subject": "Cricket protein, tell me everything"
+    },
+    {
+      "brand": "Janji",
+      "domain": "janji.com",
+      "contact_email": "support@janji.com",
+      "date_contacted": "2026-07-22",
+      "status": "drafted",
+      "subject": "The Uganda shirt project"
+    },
+    {
+      "brand": "Tailwind Nutrition",
+      "domain": "tailwindnutrition.com",
+      "contact_email": "sales@tailwindnutrition.com",
+      "date_contacted": "2026-07-22",
+      "status": "drafted",
+      "subject": "Fructose-free, finally"
+    },
     {
       "brand": "Outopia",
       "domain": "",
