@@ -1,8 +1,9 @@
 # RunLetters Brand Outreach — Weekly Routine
 
 Runs weekly. Finds new running-focused brands, drafts a personalized cold email
-in Caroline's voice for each, and leaves them as Gmail drafts for her to review
-and send herself. Never sends anything automatically.
+in Caroline's voice for each, and leaves them as drafts in the
+`caroline@runletters.com` mailbox for her to review and send herself. Never
+sends anything automatically.
 
 ## Steps
 
@@ -43,14 +44,18 @@ and send herself. Never sends anything automatically.
      spelling is fine but not required.
    - Sign off as Caroline, first name only.
    - Subject line: short, specific, no "Partnership opportunity" boilerplate.
-7. Create each email as a Gmail draft via the Gmail MCP tool (`create_draft`)
-   addressed to the discovered contact email. Do NOT send. Drafts only.
+7. Create each email as a draft in the `caroline@runletters.com` mailbox by
+   running `python3 brand-outreach/mail-draft.py --to "<contact_email>"
+   --subject "<subject>" --body-file <tmpfile>` (write the body to a temp file
+   first — safer than shell-escaping the body inline). Credentials are read
+   from `brand-outreach/mail-creds.env` in this repo; do not print, log, or
+   otherwise expose its contents. Do NOT send. Drafts only.
 8. Append each contacted brand to `brand-outreach/ledger.json` with:
    `{brand, domain, contact_email, date_contacted, status: "drafted", subject}`.
    Update `last_updated`.
 9. Commit and push: `git add brand-outreach/ledger.json && git commit -m "outreach: week of <date>" && git push`.
 10. Stop. Do not follow up on replies, do not check inbox status. That is
-    Caroline's to review each week in Gmail drafts.
+    Caroline's to review each week in her `caroline@runletters.com` drafts.
 
 ## Constraints
 
