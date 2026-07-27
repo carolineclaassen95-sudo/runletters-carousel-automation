@@ -1,6 +1,46 @@
 {
-  "last_updated": "2026-07-22",
+  "last_updated": "2026-07-27",
   "contacted": [
+    {
+      "brand": "Tracksmith",
+      "domain": "tracksmith.com",
+      "contact_email": "press@tracksmith.com",
+      "date_contacted": "2026-07-27",
+      "status": "drafted",
+      "subject": "The 2:09 mesh got my attention"
+    },
+    {
+      "brand": "Topo Athletic",
+      "domain": "topoathletic.com",
+      "contact_email": "info@topoathletic.com",
+      "date_contacted": "2026-07-27",
+      "status": "drafted",
+      "subject": "That Phantom 3 toe box spec"
+    },
+    {
+      "brand": "goodr",
+      "domain": "goodr.com",
+      "contact_email": "media@goodr.co",
+      "date_contacted": "2026-07-27",
+      "status": "drafted",
+      "subject": "Sunglasses that don't slide, finally"
+    },
+    {
+      "brand": "Skratch Labs",
+      "domain": "skratchlabs.com",
+      "contact_email": "info@skratchlabs.com",
+      "date_contacted": "2026-07-27",
+      "status": "drafted",
+      "subject": "Cherries, pistachios, and no protein isolate"
+    },
+    {
+      "brand": "Path Projects",
+      "domain": "pathprojects.com",
+      "contact_email": "hello@pathprojects.com",
+      "date_contacted": "2026-07-27",
+      "status": "drafted",
+      "subject": "The Sykes AT's anti-chafe fabric"
+    },
     {
       "brand": "Bandit Running",
       "domain": "banditrunning.com",
